@@ -31,6 +31,7 @@ def find_the_cheese(items)
     return item
     end
   end
+  nil
 end
 
 
