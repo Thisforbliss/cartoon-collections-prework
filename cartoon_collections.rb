@@ -16,7 +16,7 @@ planeteer_calls.collect do |call|
 end
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls()
   words.any? do |word|
   word.length > 4
 end
