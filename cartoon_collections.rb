@@ -26,10 +26,10 @@ end
 def find_the_cheese(cheddar_cheese) 
 
  
- cheese =["cheddar", "gouda", "camembert"]
+ cheeses =["cheddar", "gouda", "camembert"]
  
  cheddar_cheese.each do |cheese|
-  cheddar_cheese.include?()  
+  cheddar_cheese.include?(cheese)  
 end
 
 
