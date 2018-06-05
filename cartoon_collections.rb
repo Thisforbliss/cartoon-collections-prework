@@ -28,8 +28,8 @@ def find_the_cheese(items)
   cheeses =["cheddar", "gouda", "camembert"]
   items.each do |item|
    if cheeses.include?(item)  
-   return item
-   
+    return item
+    end
   end
 end
 
