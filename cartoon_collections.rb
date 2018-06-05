@@ -23,13 +23,13 @@ def long_planeteer_calls(short_words)
 end
 end
 
-def find_the_cheese(cheddar_cheese) 
+def find_the_cheese(items) 
 
  
  cheeses =["cheddar", "gouda", "camembert"]
  
- cheddar_cheese.each do |cheese|
-  cheddar_cheese.include?(cheese)  
+ items.each do |item|
+  item.include?(cheeses)  
 end
 
 
