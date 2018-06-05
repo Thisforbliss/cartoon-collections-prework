@@ -15,9 +15,10 @@ planeteer_calls.collect do |call|
  puts " #{call.capitalize}!"
 end
 end
+short_words = ["puff", "go", "two"]
 
-def long_planeteer_calls()
-  words.any? do |word|
+def long_planeteer_calls(short_words)
+  short_words.any? do |word|
   word.length > 4
 end
 end
